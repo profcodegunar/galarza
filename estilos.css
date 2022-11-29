@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(201, 214, 9);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(43, 183, 226);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    background-color: brown;
+    justify-content:flex-start;
+}
+/* .espacio{
+    width: 400px;
+} */
+.menu1{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.mundial{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 150px;
+    height: 40px;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.items{
+    width: 130px;
+    height: 50px;
+    background: burlywood;
+    line-height: 50px;
+    border-radius: 20px;
+    
+}
+.hijos1{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+    background: url(IMAGENES/descarga\ \(1\).jpg);
+
+}
+.hijos2{
+    background-color: rgb(44, 119, 184);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+    background: url(IMAGENES/images.jpg);
+}
+.hijos3{
+    background-color: rgb(27, 175, 89);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+    background: url(IMAGENES/images\ \(3\).jpg);
+}
+.hijos4{
+    background-color: rgb(171, 201, 37);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+   background: url(IMAGENES/images\ \(1\).jpg);
+}
+.hijos5{
+    background-color: rgb(190, 41, 103);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+    background: url(IMAGENES/descarga\ \(1\).jpg);
+}
+.hijos6{
+    background-color: rgb(218, 84, 44);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+    background: url(IMAGENES/images\ \(1\).jpg);
+}
+
+.hijos7{
+    background-color: rgb(30, 17, 148);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+    background: url(IMAGENES/descarga\ \(2\).jpg)
+}
+.hijos8{
+    background-color: rgb(44, 7, 36);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 15px;
+    background: url(IMAGENES/descarga\ \(2\).jpg)
+}
